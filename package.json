@@ -1,12 +1,9 @@
 {
-  "name": "blood-donation-app",
+  "name": "hemolink",
   "version": "1.0.0",
-  "description": "MERN Blood Donation Management System",
   "scripts": {
-    "start-server": "cd server && npm start",
-    "start-client": "cd client && npm start",
+    "start": "cd server && node server.js",
     "install-server": "cd server && npm install",
-    "install-client": "cd client && npm install",
-    "install-all": "npm run install-server && npm run install-client"
+    "install-client": "cd client && npm install"
   }
 }
