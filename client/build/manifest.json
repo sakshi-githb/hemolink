@@ -1,0 +1,42 @@
+{
+  "short_name": "HemoLink",
+  "name": "HemoLink — Blood Donation",
+  "description": "Connect donors, hospitals and blood banks. Save lives.",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#0d0015",
+  "background_color": "#0d0015",
+  "categories": ["health", "medical"],
+  "shortcuts": [
+    {
+      "name": "My Donations",
+      "url": "/donation",
+      "description": "Record or view your donations"
+    },
+    {
+      "name": "Blood Availability",
+      "url": "/orgnaisation",
+      "description": "Check live blood availability"
+    }
+  ]
+}
